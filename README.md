@@ -25,7 +25,7 @@
 
 ## Виведення результату запуску
 
-**Багатопотоковий підхід**
+***Багатопотоковий підхід***
 
 	$ python threading_search.py
     --- Запуск багатопотокового пошуку ---
@@ -35,7 +35,7 @@
     {'Python': ['test_files\\file1.txt', 'test_files\\file2.txt', 'test_files\\file3.txt'], 'Java': ['test_files\\file2.txt']}
 
 
-**Багатопроцесорний підхід**
+***Багатопроцесорний підхід***
 
     $ python multiprocessing_search.py
     
