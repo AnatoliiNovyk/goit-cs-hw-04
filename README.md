@@ -22,3 +22,25 @@
 -   `threading_search.py`: Реалізація пошуку з використанням потоків (`threading`).
 -   `multiprocessing_search.py`: Реалізація пошуку з використанням процесів (`multiprocessing`).
 -   `test_files/`: Директорія з текстовими файлами для тестування.
+
+## Результати запуску
+
+**Багатопотоковий підхід**
+
+	$ python threading_search.py
+    --- Запуск багатопотокового пошуку ---
+    Час виконання багатопотокової версії: 0.0038 секунд.
+    
+    Результати:
+    {'Python': ['test_files\\file1.txt', 'test_files\\file2.txt', 'test_files\\file3.txt'], 'Java': ['test_files\\file2.txt']}
+
+
+**Багатопроцесорний підхід**
+
+    $ python multiprocessing_search.py
+    
+    --- Запуск багатопроцесорного пошуку ---
+    Час виконання багатопроцесорної версії: 0.2511 секунд.
+    
+    Результати:
+    {'Python': ['test_files\\file1.txt', 'test_files\\file2.txt', 'test_files\\file3.txt'], 'Java': ['test_files\\file2.txt']}
